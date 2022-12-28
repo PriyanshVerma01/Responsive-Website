@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    
+    <link rel="stylesheet" href="./style_hidden.css" />
+    <link rel="stylesheet" href="./responsive_hidden.css">
+  </head>
+  <body style="background-color: antiquewhite;">
+    <nav class="navbar background h-nav-resp">
+      <ul class="nav-list v-class-resp">
+        <div class="logo">
+          <img
+            src="https://source.unsplash.com/300x300/?flowers"
+            alt="logo"
+          />  <!--Logo image-->
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#video">Video Section</a></li>
+      </ul>
+      <div class="rightNav v-class-resp">
+        <input type="text" name="search" placeholder="Search" id="search" />
+        <button class="btn btn-sm">Search</button>
+      </div>
+
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+    </nav>
+    <section class="background firstSection" id="home">
+      <div class="box-main">
+        <div class="firstHalf">
+          <p class="text-big">The Future of Education</p>
+          <p class="text-small">
+            Education Is The Most Powerful Weapon which You Can Use To Change
+            The World.
+          </p>
+          <div class="buttons">
+            <button class="btn">Subscribe</button>
+            <button class="btn">Watch Video</button>
+          </div>
+        </div>
+        <div class="secondHalf">
+          <img
+            src="https://source.unsplash.com/900x900/?science"
+            alt="Laptop"
+          />    <!--Unsplash Random Pictures API-->
+        </div>
+      </div>
+    </section>
+
+    <section class="section sectionOneBG">
+      <div class="paras">
+      <p class="sectionTag text-big">Computer Programming👨‍💻</p>
+      <p class="sectionSubTag text-small">
+        A computer program consists of code that is executed on a computer to perform particular tasks. This code is written by programmers.
+
+        Programming is the process of giving machines a set of instructions that describe how a program should be carried out. Programmers will spend their whole careers learning a variety of programming languages and tools so they can effectively build computer programs.
+
+        Programmers will start by using a code editor or IDE to write what is called source code. This is a collection of code written in a programming language that other programmers can read.
+      </div>
+      </p>
+      <div class="thumbnail">
+        <img
+          src="https://source.unsplash.com/900x900/?computer,programming "
+          alt="Random pictures"
+          class="imgFluid"
+        />    <!--Unsplash Random Pictures API-->
+      </div>
+    </section>
+    
+    <section class="section section-left sectionTwoBG">
+      <div class="paras">
+      <p class="sectionTag text-big">JavaScript👩‍💻</p>
+      <p class="sectionSubTag text-small">
+        JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.
+      </div>
+      </p>
+      <div class="thumbnail">
+        <img
+          src="https://source.unsplash.com/900x900/?coding,javascript"
+          alt="Random pictures"
+          class="imgFluid"
+        />    <!--Unsplash Random Pictures API-->
+      </div>
+    </section>
+
+    <section class="section sectionThreeBG">
+      <div class="paras">
+      <p class="sectionTag text-big">Python👨‍🦱</p>
+      <p class="sectionSubTag text-small">
+        Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+      </div>
+      </p>
+      <div class="thumbnail">
+        <img
+          src="https://source.unsplash.com/900x900/?coding"
+          alt="Random pictures"
+          class="imgFluid"
+        />    <!--Unsplash Random Pictures API-->
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="form">
+          <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+          <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+          <input class="form-input" type="text" name="email" id="email" placeholder="Enter Your Email">
+          <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+          <button class="btn btn-dark btn-sm">Submit</button>
+      </div>
+    </section>
+
+    <iframe class="videoSection" src="https://www.youtube.com/embed/2md4HQNRqJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+
+    <footer class="background">
+      <p class="text-footer">
+          Copyright &copy; 2023 - All rights reserved
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
